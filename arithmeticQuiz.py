@@ -65,7 +65,7 @@ for counter in range(0,10):        #when the counter variable is in the range of
 print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)   #concludes the program, printing the final score
 
 time.sleep(1)
-file.write("\n"name,":",score)
+file.write("\n",name,":",score)
 print("Your score has been saved to your class' file.")
 time.sleep(1)
 
