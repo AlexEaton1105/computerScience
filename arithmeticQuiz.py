@@ -64,7 +64,7 @@ if whichClass == "1" or whichClass == "Class One":
    classOne.write("\n")
    classOne.write(name)
    classOne.write(":")
-   classOne.write(score)
+   classOne.write(str(score))
    classOne.close()
 elif whichClass == "2" or whichClass == "Class Two":
    classTwo = open("classTwo.txt","a")
@@ -72,7 +72,7 @@ elif whichClass == "2" or whichClass == "Class Two":
    classTwo.write("\n")
    classTwo.write(name)
    classTwo.write(":")
-   classTwo.write(score)
+   classTwo.write(str(score))
    classTwo.close()
 else:
    classThree = open("classThree.txt","a")
@@ -80,7 +80,7 @@ else:
    classThree.write("\n")
    classThree.write(name)
    classThree.write(":")
-   classThree.write(score)
+   classThree.write(str(score))
    classThree.close()
 
 print("Your score has been saved to your class' file.")
