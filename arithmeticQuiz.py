@@ -1,13 +1,15 @@
 import random   #imports the default Python random module, which allows for random number generation
 import time     #imports the default Python time module, which allows for pauses in the program
 
-counter = 1     #defines the counter, which counts up to 10 each time a question is asked
-score = 0       #defines the user's score so it can be counted as they get questions right
-numberOne = 0   #opens the variable that stores the first number to be used in each question
-numberTwo = 0   #opens the variable that stores the second number to be used in each question
-operator = 0    #opens the variable that stores the number to be assigned to the operator in each question
+counter    = 1    #defines the counter, which counts up to 10 each time a question is asked
+score      = 0    #defines the user's score so it can be counted as they get questions right
+numberOne  = 0    #opens the variable that stores the first number to be used in each question
+numberTwo  = 0    #opens the variable that stores the second number to be used in each question
+operator   = 0    #opens the variable that stores the number to be assigned to the operator in each question
 
 name = input("What is your name user?  ")    #asks the user for their name so it can be used in the program.
+whichClass = input("And which class are you in, 1, 2 or 3? ")
+
 
 while name == "":    #while the name variable is empty, it runs the code that is entered.
    time.sleep(1)     #pauses the program for a second
@@ -54,7 +56,36 @@ for counter in range(0,10):        #when the counter variable is in the range of
     print("Unlucky",name,"! No points scored.")    #prints an unluck message to the user
     time.sleep(1)     #pauses the program for a second
 
-print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)   #concludes the program, printing the final score
+print("That's it! You've completed the quiz.\nYour total score was...",score,"Well done,",name)   #concludes the program, printing the final score
+
+if whichClass == "1" or whichClass == "Class One":
+   classOne = open("classOne.txt","a")
+   time.sleep(1)
+   classOne.write("\n")
+   classOne.write(name)
+   classOne.write(":")
+   classOne.write(str(score))
+   classOne.close()
+elif whichClass == "2" or whichClass == "Class Two":
+   classTwo = open("classTwo.txt","a")
+   time.sleep(1)
+   classTwo.write("\n")
+   classTwo.write(name)
+   classTwo.write(":")
+   classTwo.write(str(score))
+   classTwo.close()
+else:
+   classThree = open("classThree.txt","a")
+   time.sleep(1)
+   classThree.write("\n")
+   classThree.write(name)
+   classThree.write(":")
+   classThree.write(str(score))
+   classThree.close()
+
+print("Your score has been saved to your class' file.")
+time.sleep(1)
+
 if score <= 5:    #when the score variable is less than or equal to 5, the indented code runs
   print("Do some practice and have another go.")   #prints an encouraging message to the user
 elif score < 7:   #when the score variable is less than 7, the indented code runs
