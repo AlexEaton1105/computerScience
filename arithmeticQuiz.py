@@ -10,12 +10,6 @@ operator   = 0    #opens the variable that stores the number to be assigned to t
 name = input("What is your name user?  ")    #asks the user for their name so it can be used in the program.
 whichClass = input("And which class are you in, 1, 2 or 3? ")
 
-if whichClass == "1" or whichClass == "Class One":
-   classOne = open("classOne.txt","a")
-elif whichClass == "2" or whichClass == "Class Two":
-   classTwo = open("classTwo.txt","a")
-else:
-   classThree = open("classThree.txt","a")
 
 while name == "":    #while the name variable is empty, it runs the code that is entered.
    time.sleep(1)     #pauses the program for a second
@@ -64,8 +58,22 @@ for counter in range(0,10):        #when the counter variable is in the range of
 
 print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)   #concludes the program, printing the final score
 
-time.sleep(1)
-file.write("\n",name,":",score)
+if whichClass == "1" or whichClass == "Class One":
+   classOne = open("classOne.txt","a")
+   time.sleep(1)
+   classOne.write("\n",name,":",score)
+   classOne.close()
+elif whichClass == "2" or whichClass == "Class Two":
+   classTwo = open("classTwo.txt","a")
+   time.sleep(1)
+   classTwo.write("\n",name,":",score)
+   classTwo.close()
+else:
+   classThree = open("classThree.txt","a")
+   time.sleep(1)
+   classThree.write("\n",name,":",score)
+   classThree.close()
+
 print("Your score has been saved to your class' file.")
 time.sleep(1)
 
