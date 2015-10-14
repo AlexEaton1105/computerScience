@@ -56,7 +56,7 @@ for counter in range(0,10):        #when the counter variable is in the range of
     print("Unlucky",name,"! No points scored.")    #prints an unluck message to the user
     time.sleep(1)     #pauses the program for a second
 
-print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)   #concludes the program, printing the final score
+print("That's it! You've completed the quiz.\nYour total score was...",score,"Well done,",name)   #concludes the program, printing the final score
 
 if whichClass == "1" or whichClass == "Class One":
    classOne = open("classOne.txt","a")
