@@ -1,7 +1,4 @@
 #Name: James Hancock
-#Candidate No. 6078
-#Outwood Academy - 23148
-#A453 Programming Task
 
 import random #imports the default Python random module, which enables the user to generate random integers
 import time #imports the default Python time module, which enables the user to add pauses in the program
