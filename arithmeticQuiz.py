@@ -8,7 +8,7 @@ numberTwo  = 0    #opens the variable that stores the second number to be used i
 operator   = 0    #opens the variable that stores the number to be assigned to the operator in each question
 
 name = input("What is your name user?  ")    #asks the user for their name so it can be used in the program.
-whichClass = input("And which class are you in, 1, 2 or 3? ")
+whichClass = input("And which class are you in, 1, 2 or 3? ")  #asks the user which class they are in so the computer knows which file to open
 
 
 while name == "":    #while the name variable is empty, it runs the code that is entered.
@@ -58,33 +58,33 @@ for counter in range(0,10):        #when the counter variable is in the range of
 
 print("That's it! You've completed the quiz.\nYour total score was...",score,"Well done,",name)   #concludes the program, printing the final score
 
-if whichClass == "1" or whichClass == "Class One":
-   classOne = open("classOne.txt","a")
-   time.sleep(1)
-   classOne.write("\n")
-   classOne.write(name)
-   classOne.write(":")
-   classOne.write(str(score))
-   classOne.close()
-elif whichClass == "2" or whichClass == "Class Two":
-   classTwo = open("classTwo.txt","a")
-   time.sleep(1)
-   classTwo.write("\n")
-   classTwo.write(name)
-   classTwo.write(":")
-   classTwo.write(str(score))
-   classTwo.close()
-else:
-   classThree = open("classThree.txt","a")
-   time.sleep(1)
-   classThree.write("\n")
-   classThree.write(name)
-   classThree.write(":")
-   classThree.write(str(score))
-   classThree.close()
+if whichClass == "1" or whichClass == "Class One": #when the user says they are in class 1 it runs the indented code
+   classOne = open("classOne.txt","a") #opens the class one text document
+   time.sleep(1)                       #pauses the program for one second
+   classOne.write("\n")                #writes a blank line to the text file
+   classOne.write(name)                #writes the name variable to the text file 
+   classOne.write(":")                 #writes a colon to the text file
+   classOne.write(str(score))          #writes the score variable as a string to the text file
+   classOne.close()                    #closes the text file
+elif whichClass == "2" or whichClass == "Class Two": #when the user says they are in class 2 it runs the indented code
+   classTwo = open("classTwo.txt","a") #opens the class two text document
+   time.sleep(1)                       #pauses the program for one second
+   classTwo.write("\n")                #writes a blank line to the text file
+   classTwo.write(name)                #writes the name variable to the text file 
+   classTwo.write(":")                 #writes a colon to the text file
+   classTwo.write(str(score))          #writes the score variable as a string to the text file
+   classTwo.close()                    #closes the text file
+else: #when the user says they are in class 3 it runs the indented code
+   classThree = open("classThree.txt","a") #opens the class three text document
+   time.sleep(1)                           #pauses the program for one second
+   classThree.write("\n")                  #writes a blank line to the text file
+   classThree.write(name)                  #writes the name variable to the text file 
+   classThree.write(":")                   #writes a colon to the text file
+   classThree.write(str(score))            #writes the score variable as a string to the text file
+   classThree.close()                      #closes the text file
 
-print("Your score has been saved to your class' file.")
-time.sleep(1)
+print("Your score has been saved to your class' file.") #tells the user that their score is saved
+time.sleep(1) #pauses the program for one second
 
 if score <= 5:    #when the score variable is less than or equal to 5, the indented code runs
   print("Do some practice and have another go.")   #prints an encouraging message to the user
