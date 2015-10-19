@@ -1,14 +1,14 @@
 #Name: James Hancock
 
 import random #imports the default Python random module, which enables the user to generate random integers
-import time #imports the default Python time module, which enables the user to add pauses in the program
+import time   #imports the default Python time module, which enables the user to add pauses in the program
 
 #variables
 name = input("What's your name? ") #asks the user for their name
-counter = 0 #counts up so the program knows how many questions have been asked
-answer = "" #asks for the answer so that the program can check if the answer is correct or incorrect
-userscore = 0 #score counter so that the user knows how many questions they got right out of 10
-begin = input("Are you ready? ") #asks if the user is ready to start the quiz
+counter = 0                        #counts up so the program knows how many questions have been asked
+answer = ""                        #asks for the answer so that the program can check if the answer is correct or incorrect
+userscore = 0                      #score counter so that the user knows how many questions they got right out of 10
+begin = input("Are you ready? ")   #asks if the user is ready to start the quiz
 
 time.sleep(1) #creates a delay for 1 second
 
@@ -21,8 +21,8 @@ if begin == "yes": #if the user replies "yes" to the question, run the indented 
     time.sleep(1) #creates a delay for 1 second
 
     while counter<10: #while creates a loop
-     number1 = random.randint(0,20) #randomly generates an integer between 0 and 20
-     number2 = random.randint(0,15) #randomly generates an integer between 0 and 15
+     number1 = random.randint(0,20)  #randomly generates an integer between 0 and 20
+     number2 = random.randint(0,15)  #randomly generates an integer between 0 and 15
      operators = random.randint(1,3) #randomly generates one of the following operators, *,+, or -
     
      if operators == 1: #when the operator is equal to 1, run the indented code
