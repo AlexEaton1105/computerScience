@@ -92,3 +92,85 @@ elif score < 7:   #when the score variable is less than 7, the indented code run
   print("You're almost there! have another try.")  #prints an 'almost there' message
 else:    #when the score is more than 7, the score is more than 7, the  indented code runs
   print("You've done very well!")   #this prints a congratulations message
+
+
+
+                   Double,double
+                     Toil and trouble
+   (       "     )   Fire burn and
+    ( _  *           Cauldron bubble
+       * (     /      \    ___
+          "     "        _/ /
+         (   *  )    ___/   |
+           )   "     _ o)'-./__
+          *  _ )    (_, . $$$
+          (  )   __ __ 7_ $$$$
+           ( :  { _)  '---  $\
+      ______'___//__\   ____, \
+       )           ( \_/ _____\_
+     .'             \   \------''.
+     |='           '=|  |         )
+     |               |  |  .    _/
+      \    (. ) ,   /  /__I_____\
+  snd  '._/_)_(\__.'   (__,(__,_]
+      @---()_.'---@
+      
+      
+      
+            *            xXxx
+                    xXXx     *
+         ^^          xxXXx
+    /\__{^^}__/\      xxXXxx                               *
+   / _        _ \     xxXXxx
+   \/ \/\ww/\/ \/      xxXXxx                     {~~~~\
+                       xxxXxx                      ~\:::~~\
+                *      xxxXxx                        ~~\:::~\
+                        xxXXxx                          \::::\
+                        xxXXxxx          *               }::::}
+                        xxxXxxx                          }::::}
+                        xxxXXxxx                        /::::/
+  *                     xxxxXXxx                       /::::/
+                        xxxxXXxx                   {~~~:::/~
+                        %%xxxxx%%                   ~~~~~~
+                        %%%%%%%%%
+                       %%%%%%%%%%%
+                       %%%%%%%%%%%       *
+           *           %%%%%%%%%%%
+                     xxxxxxxx%%%%%
+                   xxXXXXXXXxxx%%%                ^^         *
+                 xxXx/////xxXxxx%%           /\__{^^}__/\
+         xxxxxxxxxXxx////(/xxXxxx%          / _        _ \
+           XXXXXXXxx//(/(((/xxxXxx          \/ \/\ww/\/ \/
+ *            xxxx////(/(/(/)\\xXxx
+               ///////(/(/(/\)\\xxxx
+               /((/(//(/(/((\/\)xXxxx
+               //(/(/(//(/  \ \)\xxxxx
+               //((//(/( /    \ \\\xxxx         *
+            *   (((///(\   \ /  )\)\xXxx
+               /(//((/(\  @ /@  )\\)\xxxx
+              //(/(///(\::/ \:::)\\))\xxxx
+             /(/(/(///(\:(   ):/)\\)\)\xXxx
+            /((/(/(/(/(\  \ /  /)\\)\\)\xxxxx
+              //(/(/(/(\\ \__/ /)\\\)\)\\ xxx
+           /////(/(/(/(\\\    //)))\)\\)                   *
+              /((/(/(/(/(\\\_///)))\)\\\\)
+               ///(/(/(/(\)) ((/)\)\)\\)\\\
+   *          ///((/(/(/(/)) ((/)\)\))\\)))\
+                (///(/(/(//) ((/\\)\)))\\
+                 ///(/(/(//      \)\\\))\
+                    (/((/        \ \  )
+
+
+
+
+
+
+/ |___ /  |  _ \  __ _ _   _ ___    ___  / _|
+           | | |_ \  | | | |/ _` | | | / __|  / _ \| |_
+           | |___) | | |_| | (_| | |_| \__ \ | (_) |  _|
+           |_|____/  |____/ \__,_|\__, |___/  \___/|_|  
+            _   _       _ _       |___/
+           | | | | __ _| | | _____      _____  ___ _ __  
+           | |_| |/ _` | | |/ _ \ \ /\ / / _ \/ _ \ '_ \
+           |  _  | (_| | | | (_) \ V  V /  __/  __/ | | |
+           |_| |_|\__,_|_|_|\___/ \_/\_/ \___|\___|_| |_|
